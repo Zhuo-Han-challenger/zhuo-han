@@ -1,19 +1,19 @@
-# Zhuo Han — Personal Website
+# Zhuo Han — Personal Homepage
 
-Canonical website: https://zhuo-han-challenger.github.io/zhuo-han/
+Official website: https://zhuo-han-challenger.github.io/zhuo-han/
 
-Research Scientist at Huawei. Research interests: world models, 3D Gaussian Splatting (3DGS) reconstruction, and runtime optimization.
+The sidebar academic design is the live homepage. The former academic-preview path redirects to the homepage, as does the older personal-website repository.
+
+## Content
+
+Research Scientist at Huawei's Graphics and Spatial Computing Lab, part of the Central Media Technology Institute, Huawei 2012 Lab. Work: spatial intelligence, world models, and 3D reconstruction. 3DGS-specific details appear in Research Projects.
 
 ## Updating
 
-Edit index.html and push to main. GitHub Pages publishes main from the repository root. The homepage remains index.html so the public address is the clean directory URL.
+Edit index.html and push to main. GitHub Pages deploys main from the root. Keep canonical URL, sitemap.xml and profile metadata aligned. The official homepage must not contain a noindex directive.
 
-The former personal-website repository serves a redirect to this site. Future content edits belong in this zhuo-han repository.
+## Search visibility
 
-## Google Search
+The page provides readable HTML, a descriptive title, canonical URL, social metadata and ProfilePage/Person structured data. Submit sitemap.xml in Google Search Console after owner verification. These settings do not guarantee indexing or search rank.
 
-The HTML includes a descriptive title, canonical URL, social metadata, and ProfilePage/Person structured data. sitemap.xml lists the canonical homepage. These help describe and discover the site; they do not guarantee indexing or ranking.
-
-The owner should add the URL-prefix property https://zhuo-han-challenger.github.io/zhuo-han/ in Google Search Console, complete HTML-file or meta-tag verification, submit sitemap.xml, then inspect the homepage URL and request indexing. Verification material must come from the owner's Search Console; do not invent it.
-
-The project repository cannot control the origin-root robots.txt. A project-subdirectory robots.txt is not used by crawlers, so none is provided.
+Past layouts remain recoverable in Git history and were also archived in local deliverables before promotion.
